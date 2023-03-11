@@ -2,7 +2,7 @@
 const router = require('express').Router();
 const fs = require('fs');
 
-// Reads the database file and return the saved notes as a json
+// Reads the database file and return the saved notes as a .json
 router.get('/notes', (req, res) => {
     fs.readFile('./db/db.json', 'utf8', (err, data) => {
         const notes = JSON.parse(data);
