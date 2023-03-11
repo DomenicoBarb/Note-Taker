@@ -1,9 +1,10 @@
-// Var declaration/dependencies
+// Var declaration/dependencies!
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes/index.js');
 const htmlRoutes = require('./routes/htmlRoutes/index.js');
 const PORT = process.env.PORT || 3001;
 const app = express();
+
 
 // This line adds middleware to parse incoming request bodies with urlencoded payloads
 app.use(express.urlencoded({ extended: true }));
