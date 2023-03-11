@@ -13,6 +13,7 @@ This application is a note taking application utilizing Express.js as the back e
 * [License](#license)
 * [Email](#Email)
 * [Github](#Github)
+* [Deployed-app](#Deployed-app)
 * [Owner](#Owner)
 
 ## Installation:
@@ -33,6 +34,9 @@ If you have any questions email me directly at DomenicoABarberi@gmail.com.
 
 ## Github:
 Please visit my [GitHub](https://github.com/DomenicoBarb) to view my other work.
+
+## Deployed-app:
+https://nicos-note-taker.herokuapp.com/
 
 ## Owner:
 Nico Barberi
