@@ -1,7 +1,7 @@
 // Var declaration/dependencies
 const express = require('express');
-const apiRoutes = require('./routes/apiRoutes/index');
-const htmlRoutes = require('./routes/htmlRoutes/index');
+const apiRoutes = require('./routes/apiRoutes/index.js');
+const htmlRoutes = require('./routes/htmlRoutes/index.js');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
