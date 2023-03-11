@@ -1,6 +1,6 @@
 // Var declaration/dependencies!
-const apiRoutes = require('./routes/apiRoutes/index');
-const htmlRoutes = require('./routes/htmlRoutes/index');
+const apiRoutes = require('./routes/apiRoutes/index.js');
+const htmlRoutes = require('./routes/htmlRoutes/index.js');
 
 const express = require('express');
 
